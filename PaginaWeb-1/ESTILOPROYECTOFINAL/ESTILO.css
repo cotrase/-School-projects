@@ -1,0 +1,171 @@
+body {
+	font-family: 'Monserrate', sans-serif;
+	overflow-x: hidden;
+}
+
+#Menu a{
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+}
+
+#Menu button{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.carousel-inner{
+	max-height: 39rem;
+}
+
+@media (max-width: 768px){
+	#Inicio, #Equipo, #Mision, #Vision{
+		width: 90% !important;
+	}
+
+	.servicios{
+	    width: 100% !important; 
+    }
+
+	#Equipo p{
+		display: none;
+	}
+
+	#Mision p{
+		display: none;
+	}
+
+	#Vision p{
+		display: none;
+	}
+
+	#bg-contactos{
+	top: -110px;
+    }
+}
+
+#contenedor-formulario{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	max-width: 500px;
+
+	background-color: #fbfafa;
+}
+
+.Sucursales{
+	width: 100% !important;
+}
+
+
+
+@media (max-width: 578px){
+	.icono-wrap{
+		flex-wrap: wrap;
+		justify-content: center !important;
+	}
+}
+
+#bg-contactos{
+	position: relative;
+	top: -130px;
+}
+
+#seccion-contacto{
+	background-color: #1b2a4e;
+	min-height: 500px;
+	position: relative;
+}
+
+footer{
+	background-color: white;
+	min-height: 100px;
+}
+
+footer{
+	background-color: white;
+	text-align: center;
+}
+
+iconos i{
+	font-size: 26px;
+	padding: 0 8px;
+	color: white;
+}
+.container2{
+  width: 90%;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 30px;
+}
+
+
+.item2{
+  background-color: #fff;
+  cursor: pointer;
+  box-shadow: 0 0 5px 0 rgba(0,0,0,.095);
+  
+  transition: all 300ms;
+  
+  position: relative;
+}
+
+
+.item2::after {
+  content: "";
+  background-color: rgba(179, 229, 252, .1);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  left: 0;
+  transform: scale(0);
+  transition: all 300ms;
+  opacity: 0;
+}
+
+.item2:hover:after{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.item2:hover {
+  transform: scale(1.05);
+}
+
+.item2-text{
+  padding: 1em;
+}
+
+
+.item2-img{
+  max-width: 100%;
+  display: block;
+}
+
+
+@media screen and (min-width: 590px) {
+  
+  .container2{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+
+
+@media screen and (min-width: 960px) {
+  
+  .container2{
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+}

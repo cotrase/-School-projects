@@ -1,0 +1,224 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#maqueta01
+{
+  margin:auto;
+  background: white;
+  display: block;
+  width:1340px;
+  height:1400px;
+}
+
+#panel01
+{
+  background: #E5E5E5;
+  display: block;
+  width: 100%;
+  height: 10%;
+  border-bottom: 1px solid skyblue;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  margin 0;
+  padding: 0;
+}
+#logo
+{
+  margin: 20px;
+  float:left;
+  display:block;
+  width:20%;
+  height:43%;
+}
+
+#puntos
+{
+  float:right;
+  margin-right: 30px;
+  margin-top: -30px;
+  background: white;
+  width:auto;
+  height:10%;
+}
+
+#panel02
+{
+  color: #394659;
+  display: block;
+  width: 100%;
+  height: 7%;
+}
+
+body{
+  font-family: arial, helvetica;
+
+}
+
+.menu{
+  list-style: none;
+  padding: 0;
+  background: #394659;
+  width: 90%;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu li a:hover{
+  background: black;
+}
+#panel03
+{
+  display: block;
+  width: 100%;
+  height: 55%;
+}
+
+#izq
+{
+  float: left;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+}
+
+#centro
+{
+  background: white;
+  filter:alpha(opacity=70);
+
+-moz-opacity:.70;opacity:.70; 
+  display: inline-block;
+  width: 70%;
+  height: 100%;
+}
+
+#slider
+{
+  background: #E5E5E5;
+  display: block;
+  width: 100%;
+  height: 30%;
+}
+
+#img1
+{
+  float: left;
+  margin: 34px;
+  background: #E5E5E5;
+  display: inline-block;
+  width: 26%;
+  height: 20%;
+}
+
+#img2
+{
+  margin: 34px;
+  background: #E5E5E5;
+  display: inline-block;
+  width: 26%;
+  height: 20%;
+}
+
+#img3
+{
+  float: right;
+  margin: 34px;
+  background: #E5E5E5;
+  display: inline-block;
+  width: 26%;
+  height: 20%;
+}
+
+#p1
+{
+  float: left;
+  margin: 34px;
+  color: #394659;
+  display: inline-block;
+  width: 26%;
+  height: 20%;
+}
+
+#p2
+{
+  color: #394659;
+  margin: 34px;
+  display: inline-block;
+  width: 26%;
+  height: 20%;
+}
+
+#p3
+{
+  color: #394659;
+  float: right;
+  margin: 34px;
+  display: inline-block;
+  width: 26%;
+  height: 20%;
+}
+
+#dere
+{
+  float: right;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+}
+
+#panel04
+{
+  background: #E5E5E5;
+  display: block;
+  width: 100%;
+  height: 18%;
+  bottom: -139px;
+  font-size: 15px;
+  text-align: justify;
+  position: relative;
+  z-index: 0;
+}
+
+#p4
+{
+  float: left;
+  margin-top: 25px;
+  margin-left: 40px;
+  background: #E5E5E5;
+  display: inline-block;
+  width: 40%;
+}
+
+#medio
+{
+  display: inline-block;  
+  width: 1%;
+  height: 100%;
+}
+
+#img4
+{
+  display: inline-block;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-bottom: 1%;
+}
+
+
+/*NOSOTROS*/
+
+#quienesSomos{
+  padding: 25px;
+}
